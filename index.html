@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Bootstrap Stuffs -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/cyborg/bootstrap.css"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+  </head>
+
+  <body>
+    <main class="container-fluid d-grid gap-5 m-5 p-5">
+      <section id="task-timer-block" class="container">
+        <h2>Task Timer</h2>
+        <div class="h1 mx-auto">15:00</div>
+        <div class="row-cols-2">
+          <button class="btn btn-success">Start Timer</button>
+          <button class="btn btn-danger">Reset Timer</button>
+        </div>
+      </section>
+      <section id="break-timer-block" class="container">
+        <h2>Break Timer</h2>
+        <div class="h1 mx-auto">15:00</div>
+        <div class="row-cols-2">
+          <button class="btn btn-success">Start Timer</button>
+          <button class="btn btn-danger">Reset Timer</button>
+        </div>
+      </section>
+      <section id="longbreak-timer-block" class="container">
+        <h2>Long Break Timer</h2>
+        <div class="h1 mx-auto">15:00</div>
+        <div class="row-cols-2">
+          <button class="btn btn-success">Start Timer</button>
+          <button class="btn btn-danger">Reset Timer</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pomodoro Script -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
